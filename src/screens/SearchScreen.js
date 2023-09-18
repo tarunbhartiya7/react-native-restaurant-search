@@ -6,13 +6,13 @@ import useSearch from "../hooks/useSearch";
 
 const SearchScreen = () => {
   const [search, setSearch] = useState("");
-  const [searchApi, results, errorMessage] = useSearch();
+  const [searchApi, results, errorMessage, loading] = useSearch();
 
   const fiterResultsByPrice = (price) => {
     return results.filter((result) => result.price === price);
   };
 
-  if (!results.length) return <Text>Loading...</Text>;
+  if (loading) return <Text>Loading...</Text>;
 
   return (
     <>
