@@ -1,5 +1,12 @@
 import React from "react";
-import { View, Text, StyleSheet, FlatList } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  TouchableOpacity,
+} from "react-native";
+import { withNavigation } from "react-navigation";
 import Restaurant from "./Restaurant";
 
 const styles = StyleSheet.create({
@@ -14,7 +21,9 @@ const styles = StyleSheet.create({
   },
 });
 
-const RestaurantsList = ({ results, title }) => {
+const RestaurantsList = ({ results, title, navigation }) => {
+  if (!results.length) return null;
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
@@ -22,12 +31,18 @@ const RestaurantsList = ({ results, title }) => {
         horizontal
         showsHorizontalScrollIndicator={false}
         data={results}
-        renderItem={({ item, id }) => {
-          return <Restaurant key={id} item={item} />;
+        renderItem={({ item }) => {
+          return (
+            <TouchableOpacity
+              onPress={() => navigation.navigate("Restaurant", { id: item.id })}
+            >
+              <Restaurant item={item} />
+            </TouchableOpacity>
+          );
         }}
       />
     </View>
   );
 };
 
-export default RestaurantsList;
+export default withNavigation(RestaurantsList);

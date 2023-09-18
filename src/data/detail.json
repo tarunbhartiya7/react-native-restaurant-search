@@ -1,0 +1,205 @@
+{
+  "data": {
+    "id": "QNzqZtNb_I1mcHAviE5zeQ",
+    "alias": "bibos-ny-pizza-san-jose",
+    "name": "Bibo's Ny Pizza",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/slNv72CZB3njkm6xSe0_yA/o.jpg",
+    "is_claimed": true,
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/bibos-ny-pizza-san-jose?adjust_creative=W1dNi6Ziy5O0z-dk2LOQow&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=W1dNi6Ziy5O0z-dk2LOQow",
+    "phone": "+14082179084",
+    "display_phone": "(408) 217-9084",
+    "review_count": 1392,
+    "categories": [{ "alias": "pizza", "title": "Pizza" }],
+    "rating": 4.5,
+    "location": {
+      "address1": "1431 Bird Ave",
+      "address2": null,
+      "address3": "",
+      "city": "San Jose",
+      "zip_code": "95125",
+      "country": "US",
+      "state": "CA",
+      "display_address": ["1431 Bird Ave", "San Jose, CA 95125"],
+      "cross_streets": ""
+    },
+    "coordinates": {
+      "latitude": 37.306477955952,
+      "longitude": -121.89160958914
+    },
+    "photos": [
+      "https://s3-media3.fl.yelpcdn.com/bphoto/slNv72CZB3njkm6xSe0_yA/o.jpg",
+      "https://s3-media4.fl.yelpcdn.com/bphoto/DSyEkokW_v8fKaEwig1qPQ/o.jpg",
+      "https://s3-media4.fl.yelpcdn.com/bphoto/VIxLUj1EyiFhcD8DXoNz2A/o.jpg"
+    ],
+    "price": "$$",
+    "hours": [
+      {
+        "open": [
+          { "is_overnight": false, "start": "1100", "end": "2000", "day": 0 },
+          { "is_overnight": false, "start": "1100", "end": "2100", "day": 1 },
+          { "is_overnight": false, "start": "1100", "end": "2100", "day": 2 },
+          { "is_overnight": false, "start": "1100", "end": "2100", "day": 3 },
+          { "is_overnight": false, "start": "1100", "end": "2200", "day": 4 },
+          { "is_overnight": false, "start": "1100", "end": "2200", "day": 5 },
+          { "is_overnight": false, "start": "1100", "end": "2000", "day": 6 }
+        ],
+        "hours_type": "REGULAR",
+        "is_open_now": false
+      }
+    ],
+    "transactions": ["pickup"]
+  },
+  "status": 200,
+  "headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=0, no-store, private, no-transform",
+    "content-encoding": "br",
+    "content-type": "application/json",
+    "date": "Mon, 18 Sep 2023 07:03:15 GMT",
+    "ratelimit-dailylimit": "5000.0",
+    "ratelimit-remaining": "4887.0",
+    "ratelimit-resettime": "2023-09-19T00:00:00+00:00",
+    "server": "envoy",
+    "vary": "Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-b3-sampled": "0",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-extlb": "10-69-119-81-uswest2aprod",
+    "x-mode": "ro",
+    "x-proxied": "10-69-119-81-uswest2aprod",
+    "x-routing-service": "routing-main--uswest2-d968656b4-fz8t6; site=public_api_v3",
+    "x-served-by": "cache-bom4733-BOM",
+    "x-zipkin-id": "6dca392effc67c6d"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": "xhr",
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Authorization": "Bearer Jw0oIMgpId1HV8x-mogAapr36SVRDSAM00qOEvAmLyxCaOV1I0T6kzJbSvazjA6Q7sNS46uHfHzRzLLAESkHYv3ES50h-sUQwtwvh836OsN-D5UwO6ObMswyxDM6YXYx"
+    },
+    "baseURL": "https://api.yelp.com/v3/businesses",
+    "method": "get",
+    "url": "/QNzqZtNb_I1mcHAviE5zeQ"
+  },
+  "request": {
+    "UNSENT": 0,
+    "OPENED": 1,
+    "HEADERS_RECEIVED": 2,
+    "LOADING": 3,
+    "DONE": 4,
+    "readyState": 4,
+    "status": 200,
+    "timeout": 0,
+    "withCredentials": true,
+    "upload": {},
+    "_aborted": false,
+    "_hasError": false,
+    "_method": "GET",
+    "_perfKey": "network_XMLHttpRequest_https://api.yelp.com/v3/businesses/QNzqZtNb_I1mcHAviE5zeQ",
+    "_response": "{\"id\": \"QNzqZtNb_I1mcHAviE5zeQ\", \"alias\": \"bibos-ny-pizza-san-jose\", \"name\": \"Bibo's Ny Pizza\", \"image_url\": \"https://s3-media3.fl.yelpcdn.com/bphoto/slNv72CZB3njkm6xSe0_yA/o.jpg\", \"is_claimed\": true, \"is_closed\": false, \"url\": \"https://www.yelp.com/biz/bibos-ny-pizza-san-jose?adjust_creative=W1dNi6Ziy5O0z-dk2LOQow&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=W1dNi6Ziy5O0z-dk2LOQow\", \"phone\": \"+14082179084\", \"display_phone\": \"(408) 217-9084\", \"review_count\": 1392, \"categories\": [{\"alias\": \"pizza\", \"title\": \"Pizza\"}], \"rating\": 4.5, \"location\": {\"address1\": \"1431 Bird Ave\", \"address2\": null, \"address3\": \"\", \"city\": \"San Jose\", \"zip_code\": \"95125\", \"country\": \"US\", \"state\": \"CA\", \"display_address\": [\"1431 Bird Ave\", \"San Jose, CA 95125\"], \"cross_streets\": \"\"}, \"coordinates\": {\"latitude\": 37.306477955952, \"longitude\": -121.89160958914}, \"photos\": [\"https://s3-media3.fl.yelpcdn.com/bphoto/slNv72CZB3njkm6xSe0_yA/o.jpg\", \"https://s3-media4.fl.yelpcdn.com/bphoto/DSyEkokW_v8fKaEwig1qPQ/o.jpg\", \"https://s3-media4.fl.yelpcdn.com/bphoto/VIxLUj1EyiFhcD8DXoNz2A/o.jpg\"], \"price\": \"$$\", \"hours\": [{\"open\": [{\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2000\", \"day\": 0}, {\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2100\", \"day\": 1}, {\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2100\", \"day\": 2}, {\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2100\", \"day\": 3}, {\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2200\", \"day\": 4}, {\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2200\", \"day\": 5}, {\"is_overnight\": false, \"start\": \"1100\", \"end\": \"2000\", \"day\": 6}], \"hours_type\": \"REGULAR\", \"is_open_now\": false}], \"transactions\": [\"pickup\"]}",
+    "_url": "https://api.yelp.com/v3/businesses/QNzqZtNb_I1mcHAviE5zeQ",
+    "_timedOut": false,
+    "_trackingName": "unknown",
+    "_incrementalEvents": false,
+    "_performanceLogger": {
+      "_timespans": {
+        "network_XMLHttpRequest_https://api.yelp.com/v3/businesses/search?limit=50&term=pizza&location=san+jose": {
+          "startTime": 648993296.343708,
+          "endTime": 648995140.664833,
+          "totalTime": 1844.3211249113083
+        },
+        "network_XMLHttpRequest_http://192.168.0.100:8081/logs": {
+          "startTime": 648993309.97875,
+          "endTime": 648993430.026041,
+          "totalTime": 120.04729104042053
+        },
+        "network_XMLHttpRequest_http://192.168.0.100:8081/symbolicate": {
+          "startTime": 649710073.597333,
+          "endTime": 649710290.168166,
+          "totalTime": 216.57083308696747
+        },
+        "network_XMLHttpRequest_https://api.yelp.com/v3/businesses/QNzqZtNb_I1mcHAviE5zeQ": {
+          "startTime": 651358931.868833,
+          "endTime": 651359540.651125,
+          "totalTime": 608.7822920084
+        }
+      },
+      "_extras": {},
+      "_points": {
+        "initializeCore_start": 648992829.910541,
+        "initializeCore_end": 648992890.009666
+      },
+      "_pointExtras": {},
+      "_closed": false,
+      "_isLoggingForWebPerformance": false
+    },
+    "responseHeaders": {
+      "x-extlb": "10-69-119-81-uswest2aprod",
+      "Cache-Control": "max-age=0, no-store, private, no-transform",
+      "x-b3-sampled": "0",
+      "Content-Encoding": "br",
+      "x-zipkin-id": "6dca392effc67c6d",
+      "Content-Type": "application/json",
+      "Server": "envoy",
+      "ratelimit-remaining": "4887.0",
+      "ratelimit-dailylimit": "5000.0",
+      "Accept-Ranges": "bytes",
+      "ratelimit-resettime": "2023-09-19T00:00:00+00:00",
+      "x-mode": "ro",
+      "x-routing-service": "routing-main--uswest2-d968656b4-fz8t6; site=public_api_v3",
+      "x-served-by": "cache-bom4733-BOM",
+      "Via": "1.1 varnish",
+      "Vary": "Accept-Encoding",
+      "x-proxied": "10-69-119-81-uswest2aprod",
+      "Date": "Mon, 18 Sep 2023 07:03:15 GMT",
+      "x-cache-hits": "0",
+      "x-cache": "MISS"
+    },
+    "_requestId": null,
+    "_headers": {
+      "accept": "application/json, text/plain, */*",
+      "authorization": "Bearer Jw0oIMgpId1HV8x-mogAapr36SVRDSAM00qOEvAmLyxCaOV1I0T6kzJbSvazjA6Q7sNS46uHfHzRzLLAESkHYv3ES50h-sUQwtwvh836OsN-D5UwO6ObMswyxDM6YXYx"
+    },
+    "_responseType": "",
+    "_sent": true,
+    "_lowerCaseResponseHeaders": {
+      "x-extlb": "10-69-119-81-uswest2aprod",
+      "cache-control": "max-age=0, no-store, private, no-transform",
+      "x-b3-sampled": "0",
+      "content-encoding": "br",
+      "x-zipkin-id": "6dca392effc67c6d",
+      "content-type": "application/json",
+      "server": "envoy",
+      "ratelimit-remaining": "4887.0",
+      "ratelimit-dailylimit": "5000.0",
+      "accept-ranges": "bytes",
+      "ratelimit-resettime": "2023-09-19T00:00:00+00:00",
+      "x-mode": "ro",
+      "x-routing-service": "routing-main--uswest2-d968656b4-fz8t6; site=public_api_v3",
+      "x-served-by": "cache-bom4733-BOM",
+      "via": "1.1 varnish",
+      "vary": "Accept-Encoding",
+      "x-proxied": "10-69-119-81-uswest2aprod",
+      "date": "Mon, 18 Sep 2023 07:03:15 GMT",
+      "x-cache-hits": "0",
+      "x-cache": "MISS"
+    },
+    "_subscriptions": [],
+    "responseURL": "https://api.yelp.com/v3/businesses/QNzqZtNb_I1mcHAviE5zeQ"
+  }
+}

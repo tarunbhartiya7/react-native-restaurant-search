@@ -12,6 +12,8 @@ const SearchScreen = () => {
     return results.filter((result) => result.price === price);
   };
 
+  if (!results.length) return <Text>Loading...</Text>;
+
   return (
     <>
       <SearchBar
